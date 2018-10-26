@@ -28,4 +28,4 @@ API schema will be created also
 
 ## Building
 
-- `yarn build` will build the module for publishing to npm.
+- No building required

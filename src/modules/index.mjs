@@ -7,11 +7,6 @@ import PrismaModule from "@prisma-cms/prisma-module";
 
 import MergeSchema from 'merge-graphql-schemas';
 
-import { parse } from "graphql";
-
-import mkdirp from "mkdirp";
-import shortid from "shortid";
-
 import path from 'path';
 
 const moduleURL = new URL(import.meta.url);

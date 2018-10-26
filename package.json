@@ -1,6 +1,6 @@
 {
-  "name": "@prisma-cms/module-bilerplate",
-  "description": "Module boilerplate for @prisma-cms/server",
+  "name": "@prisma-cms/mail-module",
+  "description": "Mail module for @prisma-cms/server",
   "version": "1.0.0-beta",
   "main": "lib/module.js",
   "module": "es/module.js",

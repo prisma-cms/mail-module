@@ -1,13 +1,10 @@
 ## Prerequisites
-
 - [Node.js](http://nodejs.org/) >= 10 must be installed.
 
 ## Installation
-
 - Running `yarn` in the module's root directory will install everything you need for development.
 
 ## Running Tests
-
 - `yarn test` will run the tests once.
 
 ## Deploy prisma schema
@@ -27,5 +24,4 @@ API schema will be created also
 - `yarn start`
 
 ## Building
-
 - No building required

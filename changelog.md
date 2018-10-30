@@ -1,6 +1,10 @@
+1.1.2
+===============================
+- Upgarde dependencies
+
 1.1.1
 ===============================
-- Upgrade dependencies
+- Upgarde dependencies
 
 1.1.0
 ===============================

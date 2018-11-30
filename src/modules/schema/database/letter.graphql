@@ -12,4 +12,5 @@ type Letter {
   subject: String!
   message: String!
   status: LetterStatus! @default(value: Created)
+  rank: Int @default(value: 0)
 }

@@ -1,3 +1,8 @@
+1.2.0
+===============================
+- Removed sendmail dependency
+- Added sendmail module
+
 1.1.2
 ===============================
 - Upgarde dependencies

@@ -1,7 +1,7 @@
 {
   "name": "@prisma-cms/mail-module",
   "description": "Mail module for @prisma-cms/server",
-  "version": "1.1.2-beta",
+  "version": "1.2.0",
   "main": "src/",
   "files": [
     "src"
@@ -16,7 +16,9 @@
   "dependencies": {
     "@prisma-cms/prisma-module": "latest",
     "chalk": "^2.4.1",
-    "merge-graphql-schemas": "latest"
+    "merge-graphql-schemas": "latest",
+    "dkim-signer": "^0.2.2",
+    "mailcomposer": "^3.12.0"
   },
   "devDependencies": {
     "@prisma-cms/server": "latest",

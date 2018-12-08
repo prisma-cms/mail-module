@@ -1,3 +1,7 @@
+1.2.1
+===============================
+- Added Lette::deleteOnSend
+
 1.2.0
 ===============================
 - Removed sendmail dependency

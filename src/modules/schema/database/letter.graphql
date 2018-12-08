@@ -13,4 +13,5 @@ type Letter {
   message: String!
   status: LetterStatus! @default(value: Created)
   rank: Int @default(value: 0)
+  deleteOnSend: Boolean @default(value: true)
 }

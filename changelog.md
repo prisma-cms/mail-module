@@ -1,3 +1,7 @@
+1.2.2
+===============================
+- getApiSchema() now get prisma schema from current module dir only
+
 1.2.1
 ===============================
 - Added Lette::deleteOnSend
@@ -6,6 +10,10 @@
 ===============================
 - Removed sendmail dependency
 - Added sendmail module
+
+1.1.3
+===============================
+- Move tests
 
 1.1.2
 ===============================

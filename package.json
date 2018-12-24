@@ -1,7 +1,7 @@
 {
   "name": "@prisma-cms/mail-module",
   "description": "Mail module for @prisma-cms/server",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "src/",
   "files": [
     "src"
@@ -11,7 +11,7 @@
     "start-dev": "action=start-server nodemon --experimental-modules src/server",
     "deploy": "NODE_ENV=test node --experimental-modules src/server/scripts/deploy/with-prisma",
     "build-api": "node --experimental-modules src/server/scripts/deploy/api-only",
-    "test": "NODE_OPTIONS=\"--experimental-modules\" yarn mocha --delay src/__tests__/"
+    "test": "NODE_OPTIONS=\"--experimental-modules\" yarn mocha --delay __tests__/"
   },
   "dependencies": {
     "@prisma-cms/prisma-module": "latest",
@@ -23,11 +23,12 @@
   "devDependencies": {
     "@prisma-cms/server": "latest",
     "expect": "^23.6.0",
+    "graphql": "*",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.5"
   },
   "resolutions": {
-    "graphql": "14.0.2"
+    "graphql": "*"
   },
   "author": "Fi1osof",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "@prisma-cms/mail-module",
   "description": "Mail module for @prisma-cms/server",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "src/",
   "files": [
     "src"

@@ -1,3 +1,8 @@
+1.2.3
+===============================
+- Added replyTo
+- Added returnTo
+
 1.2.2
 ===============================
 - getApiSchema() now get prisma schema from current module dir only

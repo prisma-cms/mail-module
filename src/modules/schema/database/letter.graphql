@@ -1,13 +1,11 @@
 
-enum LetterStatus{
-  Created
-  Processing
-  Sended
-  Error
-}
-
+"""
+  @prisma-cms/mail-module
+"""
 type Letter {
-  id: ID! @unique
+  id: ID! @id @unique
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
   email: String!
   subject: String!
   message: String!
@@ -16,4 +14,11 @@ type Letter {
   deleteOnSend: Boolean @default(value: true)
   replyTo: String
   returnTo: String
+}
+
+enum LetterStatus{
+  Created
+  Processing
+  Sended
+  Error
 }
